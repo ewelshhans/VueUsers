@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Users />
+    <vuetify />
   </div>
 </template>
 
 <script>
 import Users from "./components/Users.vue";
+import vuetify from "@/plugins/vuetify";
 
 export default {
   name: "App",
   components: {
     Users,
+    vuetify,
   },
 };
 </script>
