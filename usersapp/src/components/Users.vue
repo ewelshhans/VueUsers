@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h3>Users:</h3>
-    <v-simple-table class="table">
+    <table class="table">
       <template>
         <thead>
           <tr>
@@ -20,7 +20,7 @@
           </tr>
         </tbody>
       </template>
-    </v-simple-table>
+    </table>
   </div>
 </template>
 <script>

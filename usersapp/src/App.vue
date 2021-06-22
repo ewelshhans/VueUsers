@@ -1,24 +1,17 @@
 <template>
   <div id="app">
     <Users />
-    <vuetify />
   </div>
 </template>
 
 <script>
 import Users from "./components/Users.vue";
-//import vuetify from "@/plugins/vuetify";
 import "babel-polyfill";
-//import Vue from "vue";
-import vuetify from "@/plugins/vuetify";
-
-//new Vue({ vuetify }).mount("#app");
 
 export default {
   name: "App",
   components: {
     Users,
-    vuetify
   },
 };
 </script>
